@@ -4,35 +4,35 @@
 #define _USE_MATH_DEFINES
 #include <math.h>
 
-void task3a() //номер 3 а)
+void main() //Г­Г®Г¬ГҐГ° 3 Г )
 {
 
 	setlocale(LC_ALL, "RUS");
 
 	int A, B;
 
-	printf("Введите А и Б для проверки условия:\n");
+	printf("Г‚ГўГҐГ¤ГЁГІГҐ ГЂ ГЁ ГЃ Г¤Г«Гї ГЇГ°Г®ГўГҐГ°ГЄГЁ ГіГ±Г«Г®ГўГЁГї:\n");
 	scanf("%d %d", &A, &B);
 
 	printf("%d", (A % 2 + B % 2) % 2 > 0);
 }
 
-void task3b() //номер 3 б) 
+void main() //Г­Г®Г¬ГҐГ° 3 ГЎ) 
 {
 
 	setlocale(LC_ALL, "RUS");
 
 	float x, a, b, y, k = -4, A, B;
 
-	printf("Найдем у из второго задания\nвведите х:\n");
+	printf("ГЌГ Г©Г¤ГҐГ¬ Гі ГЁГ§ ГўГІГ®Г°Г®ГЈГ® Г§Г Г¤Г Г­ГЁГї\nГўГўГҐГ¤ГЁГІГҐ Гµ:\n");
 	scanf("%f", &x);
 
 	a = log((-1) * k * x);
 	b = exp(2 * x) + (a * x);
 	y = x * (a * a * a) + (b * b); 
-	printf("целая часть y для условия=%.0f\n", y);
+	printf("Г¶ГҐГ«Г Гї Г·Г Г±ГІГј y Г¤Г«Гї ГіГ±Г«Г®ГўГЁГї=%.0f\n", y);
 
-	printf("Введите А и Б:\n");
+	printf("Г‚ГўГҐГ¤ГЁГІГҐ ГЂ ГЁ ГЃ:\n");
 
 	int cely;
 
